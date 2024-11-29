@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>万万集资源库</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>万万集资源库</h1>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索资源...">
+            </div>
+            <div class="announcement">
+                ⚠️ 资源过多善用搜索，宁少字不错字，及时保存，失效不补
+            </div>
+        </header>
+        
+        <main>
+            <div id="resourceList" class="resource-grid">
+                <!-- 资源将通过JavaScript动态加载 -->
+            </div>
+            <div id="loading" class="loading">加载中...</div>
+            <div id="error" class="error" style="display: none;"></div>
+            <div id="pagination" class="pagination"></div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
